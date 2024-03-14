@@ -1,0 +1,74 @@
+/* Apply general styles to the whole page */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif; /* Use a fallback font */
+  }
+  
+  /* Style the header and footer */
+  header, footer {
+    background-color: #f44336;
+    padding: 50px;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  /* Style the navigation bar */
+  nav {
+    background-color: #FF204E;
+    text-align: center; /* Center the links horizontally */
+  }
+  
+  nav a {
+    display: inline-block; /* Makes links appear side-by-side */
+    margin: 0 15px; /* Reduce spacing between links */
+    text-decoration: none; /* Removes underline by default */
+    padding: 20px;
+  }
+  
+  nav a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  /* Style the main content */
+  .main-content {
+    background-color: skyblue;
+    padding: 20px;
+    color: #ffffff;
+    margin: 0 5px;
+    text-align: center;
+  }
+  
+  /* Style the side content */
+  .side-content {
+    background-color: skyblue;
+    padding: 20px;
+    color: #000000;
+    margin: 0 5px;
+    text-align: center;
+    border: 2px solid #ccc; /* Add a border */
+    border-radius: 10px; /* Add some border radius for rounded corners */
+  }
+  
+  /* Separate the two side contents */
+  .side-content1 {
+    margin-right: 10px;
+  }
+  
+  .side-content2 {
+    margin-left: 10px;
+  }
+  
+  /* Create a flex container for main and side columns */
+  .container {
+    display: flex;
+  }
+  
+  /* Style the main and side columns */
+  .main-column, .side-column, .side-column2 {
+    flex: 1;
+  }
+  
+  /* Style the footer text */
+  .footer h5 {
+    font-s
+  
